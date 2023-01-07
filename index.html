@@ -1,0 +1,184 @@
+ <!DOCTYPE html>
+ 
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 12px 6px;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #333;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+li a.active {
+  color: white;
+  background-color: #04AA6D;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a href="https://duodoodle.github.io/climatron">Home</a></li>
+  <li><a href="https://myclimateaction.w3spaces.com/index.html">Causes</a></li>
+  <li><a href="https://climaatechange.w3spaces.com/effectsofclimatechange.html">Effects</a></li>
+  <li><a href="https://climaatechange.w3spaces.com/preventionclimatechange.html">Prevention</a></li>
+  <li><a class="active" href="#About Us">About Us</a></li>
+
+<div class="about-section">
+  <h1>About Us Page</h1>
+  <p>It all started with a thought</p>
+  <p>We wanted to start an initiative which will allow us to reach more people and educate them about climate change.  
+  We wanted to show that throwing soup at paintings is not the cure to climate change, but helping to stop human activities leading to it is.</p>
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+
+      <div class="container">
+        <h2>Dhairya Sharma</h2>
+        <p class="title">Head in Design </p>
+        <p>Designed the about us page.</p>
+        <p>Dhairyasharma228@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+
+      <div class="container">
+        <h2>Tanay Chawla</h2>
+        <p class="title">Programming Advisor</p>
+        <p>Designed the home page</p>
+        <p>Tanay.chawla@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+  
+      <div class="container">
+        <h2>Himangshu </h2>
+        <p class="title">Executional Head</p>
+        <p> Designed the effects page and prevention page</p>
+        <p>himangshubasu771@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="column">
+  
+      <div class="container">
+        <h2>Advait Agnihotri </h2>
+        <p class="title">Head in Research</p>
+        <p>Designed the causes page.</p>
+        <p>Jevsoob@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+        <button onclick = "youtube.com';"
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>
